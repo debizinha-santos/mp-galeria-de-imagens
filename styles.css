@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap");
+
+/* resetando padrões de estilo do navegador
+ */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Darker Grotesque", serif;
+  background-color: black;
+  color: white;
+  font-weight: 400;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.navbar {
+  display: grid;
+  align-content: space-between;
+  padding: 20px;
+  background-color: #000000;
+  height: 100vh;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.menu {
+  display: block;
+  list-style: none;
+  font-size: 2.2rem;
+
+  
+}
+
+.menu > li:hover {
+  background-color: #1a1a1a;
+  margin: 2px;
+}
+
+.menu > li > a:hover,
+.menu > li > a.active {
+  font-weight: 600;
+}
+
+.menu > li > a {
+  color: white;
+  text-decoration: none;
+  padding: 0px 20px;
+  display: block;
+}
+
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+}
+
+.social a:hover {
+    font-weight: 700;
+}
+
+h1 {
+  font-size: 2.8rem;
+  text-align: left;
+  margin: 20px 0;
+}
+
+.content {
+  width: 100%;
+  display: grid;
+  align-content: center;
+  background-color: rgb(240, 240, 240);
+  background-image: url("/main.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.content h2 {
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+text-align: center;
+margin: 0 200px 30px 200px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+}
+
+.btn-more {
+  font-size: 1.8rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  color: black;
+  margin-top: 15px;
+}
+
+.btn-more:hover {
+  color: rgb(176, 177, 179);
+  font-weight: 900;
+}
+
+p {
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 0 200px;
+  color: slategray;
+}
+
+.gallery {
+    background-color: #000000;
+    padding: 20px;
+    
+}
