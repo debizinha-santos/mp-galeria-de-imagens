@@ -21,8 +21,7 @@ body {
 
 .container {
   display: flex;
-  flex-direction: column;
-  width: 25%;
+  width: 100vw;
 }
 
 .navbar {
@@ -31,6 +30,7 @@ body {
   padding: 20px;
   background-color: #000000;
   height: 100vh;
+  width: 30%;
 }
 
 ul {
@@ -83,13 +83,14 @@ h1 {
 }
 
 .content {
-  width: 100%;
+  width: 80vw;
   display: grid;
   align-content: center;
   background-color: rgb(240, 240, 240);
-  background-image: url("/main.png");
+  background-image: url("/assets/background.png");
   background-size: cover;
   background-position: center;
+  
 }
 
 .content h2 {
