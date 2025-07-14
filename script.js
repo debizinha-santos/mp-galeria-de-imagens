@@ -26,6 +26,10 @@ function loadImages () {
     });
 
     currentImageIndex += imagesPerPage;
+
+    if (currentImageIndex >= images.length) {
+        loadMore.style.display = 'none';
+    }
 }
 
 loadImages();
@@ -33,4 +37,16 @@ loadMore.addEventListener('click', loadImages);
 
 window.addEventListener('scroll', () => {
     console.log('teste');
-})
+
+    const viewportHeight = window.innerHeight;
+
+    const scrollPosition = window.scrollY;
+
+    const pageHeight = document.body.offsetHeight;
+
+    const offset = pageHeight -  100;
+
+    if (viewportHeight + scrollPosition >= offset) {
+        loadImages();
+    }
+});
