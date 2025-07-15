@@ -38,6 +38,21 @@ body {
   min-width: 20%;
 }
 
+@media screen and (max-width: 768px) {
+  .navbar {
+    min-width: 40%;
+  }
+
+  .content p, h2 {
+    margin: 0 20px;
+  }
+
+  .photo-gallery  {
+    width: 100vw;
+    margin-left: 0; /* remove espaço da sidebar */
+  }
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -97,7 +112,6 @@ h1 {
   font-size: 2rem;
   color: var(--background);
   text-align: center;
-  margin: 0 200px 30px 200px;
 }
 
 main > p > a {
