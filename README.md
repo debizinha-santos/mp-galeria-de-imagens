@@ -8,12 +8,11 @@ Este mini projeto consiste em criar uma galeria de fotos utilizando apenas HTML,
 
 ## 🎨 Design Sugerido
 
-Siga o layout da galeria apresentado na imagem, mas fique à vontade para usar sua criatividade na disposição das imagens e na estilização.
 🔗 [Link do design](https://www.figma.com/community/file/1428063404796536640)
 
 ## 👉🏽 Sobre esse mini-projeto
 
-### O que você irá praticar:
+### O que foi praticado:
 
 #### HTML
 
